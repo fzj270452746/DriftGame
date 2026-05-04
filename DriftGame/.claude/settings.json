@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls /Users/hades/Desktop/Code/26/04/0416-2/DriftGame/DriftGame/*.swift)",
+      "Bash(xcodebuild -scheme DriftGame -destination 'platform=iOS Simulator,name=iPhone 16' -configuration Debug build)",
+      "Bash(osascript -e 'tell application \"Simulator\" *)",
+      "Bash(osascript)",
+      "Bash(osascript -e 'tell application \"System Events\" to tell process \"Simulator\" to return \\(position of first window as string\\) & \" \" & \\(size of first window as string\\)')",
+      "Bash(osascript -e 'tell application \"System Events\" to tell process \"Simulator\" to return \\(position of first window as string\\) & \" | \" & \\(size of first window as string\\)')",
+      "Bash(xcodebuild -scheme DriftGame -destination 'platform=iOS Simulator,name=iPhone 16' build)",
+      "Bash(/usr/libexec/PlistBuddy -c \"Print CFBundleIdentifier\" /Users/hades/Library/Developer/Xcode/DerivedData/DriftGame-biybngjsqzfmfzdsobrqdqlmgott/Build/Products/Debug-iphonesimulator/DriftGame.app/Info.plist)",
+      "Bash(xcodebuild -scheme DriftGame -destination 'platform=iOS Simulator,id=1A82FA70-5BD0-48FA-87F8-473A74AF681B' build)",
+      "Bash(open /tmp/drift_menu.png)"
+    ]
+  }
+}

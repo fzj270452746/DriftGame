@@ -1,0 +1,6 @@
+framework module Pods_DriftGame {
+  umbrella header "Pods-DriftGame-umbrella.h"
+
+  export *
+  module * { export * }
+}
